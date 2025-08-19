@@ -1,0 +1,115 @@
+# Ukrainian translations for 4WP Polylang API Sync plugin.
+# Copyright (C) 2024 4WP Dev
+# This file is distributed under the same license as the 4WP Polylang API Sync package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 4WP Polylang API Sync 1.1.8\n"
+"Report-Msgid-Bugs-To: https://4wp.dev\n"
+"POT-Creation-Date: 2024-08-19 20:40+0000\n"
+"PO-Revision-Date: 2024-08-19 20:50+0000\n"
+"Last-Translator: 4WP Dev <info@4wp.dev>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: 4wp-polylang-api-sync.php:29
+msgid "4WP Polylang API Sync requires Polylang plugin to be installed and activated."
+msgstr "4WP Polylang API Sync потребує встановлення та активації плагіна Polylang."
+
+#: 4wp-polylang-api-sync.php:76
+msgid "This plugin requires Polylang to be installed and activated."
+msgstr "Цей плагін потребує встановлення та активації Polylang."
+
+#: 4wp-polylang-api-sync.php:40
+msgid "4WP Polylang API Sync requires Polylang plugin to be fully loaded."
+msgstr "4WP Polylang API Sync потребує повного завантаження плагіна Polylang."
+
+#: includes/class-plugin.php:50
+msgid "4WP Polylang API Sync: Some required classes could not be loaded. Please deactivate and reactivate the plugin."
+msgstr "4WP Polylang API Sync: Деякі необхідні класи не могли бути завантажені. Будь ласка, деактивуйте та активуйте плагін знову."
+
+#: includes/class-rest.php:89
+msgid "Authentication required."
+msgstr "Потрібна автентифікація."
+
+#: includes/class-rest.php:95
+msgid "Insufficient permissions."
+msgstr "Недостатньо прав доступу."
+
+#: includes/class-rest.php:101
+msgid "Invalid nonce."
+msgstr "Недійсний nonce."
+
+#: includes/class-rest.php:125
+msgid "Taxonomy terms synchronized successfully"
+msgstr "Терміни таксономії успішно синхронізовано"
+
+#: includes/class-rest.php:145
+msgid "Posts synchronized successfully"
+msgstr "Пости успішно синхронізовано"
+
+#: includes/class-rest.php:165
+msgid "Taxonomy terms"
+msgstr "Терміни таксономії"
+
+#: includes/class-sync-handler.php:41
+msgid "Invalid parameters: "
+msgstr "Недійсні параметри: "
+
+#: includes/class-sync-handler.php:57
+msgid "One or both terms do not exist."
+msgstr "Один або обидва терміни не існують."
+
+#: includes/class-sync-handler.php:64
+msgid "Terms must belong to the same taxonomy."
+msgstr "Терміни повинні належати до однієї таксономії."
+
+#: includes/class-sync-handler.php:71
+msgid "Terms are already linked."
+msgstr "Терміни вже зв'язані."
+
+#: includes/class-sync-handler.php:128
+msgid "All parameters are required."
+msgstr "Всі параметри обов'язкові."
+
+#: includes/class-sync-handler.php:141
+msgid "One or both posts do not exist."
+msgstr "Один або обидва пости не існують."
+
+#: includes/class-sync-handler.php:148
+msgid "Posts are already linked."
+msgstr "Пости вже зв'язані."
+
+#: includes/class-sync-handler.php:195
+msgid "Polylang function not available."
+msgstr "Функція Polylang недоступна."
+
+#: includes/class-sync-handler.php:210
+msgid "Failed to save term translations."
+msgstr "Не вдалося зберегти переклади термінів."
+
+#: includes/class-sync-handler.php:230
+msgid "Failed to save post translations."
+msgstr "Не вдалося зберегти переклади постів."
+
+#: includes/class-sync-handler.php:107
+msgid "Failed to sync taxonomy terms: "
+msgstr "Не вдалося синхронізувати терміни таксономії: "
+
+#: includes/class-sync-handler.php:183
+msgid "Failed to sync posts: "
+msgstr "Не вдалося синхронізувати пости: "
+
+#: includes/class-validator.php:25
+msgid "Field \"%s\" is required."
+msgstr "Поле \"%s\" обов'язкове."
+
+#: includes/class-validator.php:30
+msgid "Source and target languages must be different."
+msgstr "Вихідна та цільова мови повинні бути різними."
+
+#: includes/class-validator.php:35
+msgid "Source and target terms must be different."
+msgstr "Вихідний та цільовий терміни повинні бути різними."
