@@ -2,7 +2,7 @@
 
 Plugin for synchronizing taxonomies and posts between languages in Polylang via REST API.
 
-**Current Version:** 1.1.0  
+**Current Version:** 1.2.0  
 **Last Updated:** August 19, 2024
 
 ## Description
